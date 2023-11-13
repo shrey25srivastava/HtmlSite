@@ -904,7 +904,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     top: 0%;
     content: "";
     background: #222; }
-
+    @media only screen and (max-width: 600px) {
+      .bg-project {
+        width: unset;
+      }
+    }
 .testimonial-v2 {
   background: #2c2c2c;
   padding: 30px;
